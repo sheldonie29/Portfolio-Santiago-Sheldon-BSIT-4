@@ -30,7 +30,8 @@ p { margin-bottom: 0.75rem; }
 /* ===== NAVIGATION ===== */
 .nav { position: sticky; top: 0; z-index: 10; background: rgba(27, 33, 30, 0.95); box-shadow: var(--shadow); }
 .nav-inner { display: flex; justify-content: space-between; align-items: center; min-height: 60px; }
-.logo { font-family: "Outfit", sans-serif; font-weight: 700; font-size: 1.2rem; text-decoration: none; color: var(--text); }
+.logo { display: flex; align-items: center; gap: 0.5rem; font-family: "Outfit", sans-serif; font-weight: 700; font-size: 1.2rem; text-decoration: none; color: var(--text); }
+.logo-icon { width: 1.6rem; height: 1.6rem; }
 .nav-links { display: flex; gap: 1.5rem; }
 .nav-links a { color: var(--text); text-decoration: none; padding: 0.25rem 0; }
 .nav-links a:hover { color: var(--accent); }
